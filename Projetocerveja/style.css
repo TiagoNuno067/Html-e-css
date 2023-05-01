@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+* {margin: 0;}
+
+@font-face {
+    font-family: fa;
+    src: url(fontes/BebasNeue-Regular.ttf)format(truetype);
+}
+header {background-color: #1560AD; text-align: center; 
+    color: white; 
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 10px; 
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.575);}
+
+    section {
+        margin: 10%; background-color: #113558; 
+        padding: 50vh 30vw;
+         margin-left: -20%;
+         margin-right: -0%; background-image: url(imagens/pexels-tembelacervejas.jpg); 
+         background-position: center center; 
+         background-size: cover; background-attachment: fixed; box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.692);}
+
+
+     section h1 {text-align: center;
+        margin: auto;
+         position: absolute; top: 50vh; left: 10vh; 
+
+          color: rgb(228, 6, 6); 
+         font-family: fa; font-size: 10vw; text-shadow: 0px 6px 10px rgba(51, 46, 46, 0.959);}
+    #titulo2 {font-family: fa; color: #8b9733; margin-left: 5%; font-size: 4em; text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.11);}
+    main p {font-family: Arial, Helvetica, sans-serif; margin-left: 20px; text-indent: 10px; padding-bottom: 43px; line-height: 40px;}
+
+
+    img {max-width: 345px; display: block; margin: auto; box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.39);}
+
+
+    aside {background-color: #113558; margin-top: 10%; padding: 5%;}
+
+    aside img {max-width: 100%; border-radius: 10px;}
+
+    aside img:hover{box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.664);}
