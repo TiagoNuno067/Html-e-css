@@ -1,0 +1,75 @@
+@charset "UTF-8";
+* {margin: 0px; padding: 0px; font-family: Arial, Helvetica, sans-serif;}
+
+@font-face {
+    font-family: fac;
+    src: url(fontes/BebasNeue-Regular.ttf)format(truetype);
+}
+
+@font-face {
+    font-family: fa;
+    src: url(fontes/Por\ Siempre\ Gótica.ttf)format(truetype);
+}
+
+nav {display: flex; justify-content: space-between;background-image: linear-gradient(to top, #1560AD,#1184FA); padding: 60px;}
+
+ul > a {padding: 10px; 
+    text-decoration: none; 
+    font-weight: bold; 
+    color: rgb(27, 27, 143); font-size: 17px;}  
+
+ul > a:hover {color: rgb(133, 34, 34);}
+
+.destaque {color: #fffab5; font-size: 18px; text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.692);}
+
+.banner-text {
+    max-width: 100vh; text-align: center; 
+    margin: auto; 
+    padding-top: 50vh;}
+
+.destaque:hover{background-color: #1560AD; padding: 10px; border-radius: 3px;}
+
+.banner-text > h1 {font-size: 10em; font-family: fac; color: rgb(250, 6, 6); text-shadow: 2px 0px 10px rgba(0, 0, 0, 0.747);}
+
+.banner-text > p {font-weight: bold; color: #ffee01; font-size: 2em; font-family: fa; 
+    text-shadow: 1px 0px 10px black; padding-bottom: 20px;}
+
+section.banner{
+    background-image: url(imagens/ambev-1.jpg);
+     background-size: cover; padding-bottom: 40vh; background-attachment: fixed;}
+
+.banner-text > a {
+    text-decoration: none; 
+    font-weight: bold; 
+    font-size: 23px; 
+    background-color:#AD170C; 
+    padding: 10px; 
+    border-radius: 10px;
+     color: white; 
+    text-transform: uppercase; 
+    text-shadow: 1px 0px 10px rgba(0, 0, 0, 0.808);}
+
+.banner-text > a:hover {box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.616);}
+
+.logo {width: 134px; border-radius: 50%; box-shadow: 4px 0px 10px rgba(0, 0, 0, 0.548);}
+
+.main-text {
+    max-width: 100vh; 
+    text-align: center; 
+    padding-top: 10%; 
+    padding-left: 10px; 
+    margin: auto;}
+
+.main-text  > h1 {padding-bottom: 10px; font-family: fa; font-size: 4em; color: #faea0c; text-shadow: 1px 0px 10px black;}
+
+.main-text > p {line-height: 26px;}
+
+.main-text > img {
+    max-width: 100%;
+     margin-top: 10px; 
+    border-radius: 10px; 
+    box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.863);}
+
+aside {background-color: rgb(60, 111, 253); padding: 10px; padding-top: 30px; margin-top: 10px;}
+
+aside > img {display: block; margin: auto; border-radius: 10px; max-width: 100%; box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.493);}
