@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relembre</title>
+</head>
+<body>
+    <h1>Nome:</h1>
+    <input type="text" placeholder="Coloque o nome" id="text"> <input type="button" value="Enviar" id="button">
+    <div id="res"></div>
+    
+    <script>var b = document.getElementById("button")
+    b.addEventListener('click', clicar)
+    function clicar() {
+        var res = document.getElementById("res")
+        var text = document.getElementById("text")
+        var s = String(text.value).toUpperCase()
+        if (s == `ARIANE` || s == "TEREZA" || s == "CAIO") {
+            res.innerHTML = `${s} é da familia do TIAGO`
+        }
+        else {
+            res.innerHTML = `${s} Seja bem vindo!`
+        }
+    }</script>
+</body>
+</html>

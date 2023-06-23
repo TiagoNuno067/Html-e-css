@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>table {width: 400px; border-collapse: collapse;} th, td
+    {border: 1px solid black; padding: 10px}
+    
+  thead {color: white; background-color: gray}
+  
+  #media {background-color: gray; color: white; text-align: left}
+  
+  .centro {text-align: center};</style>
+</head>
+<body>
+    <table><thead><tr><th scope="col">Área</th> <th scope="col">Disciplinas</th> <th colspan="2" scope="colgroup">Notas</th> <th scope="col">Media</th></tr></thead>
+    <tbody><tr>
+        <th rowspan="4" scope="rowgroup">Exatas</th> <td>Matématica</td> <td class="centro">0.0</td> <td class="centro">0.0</td> <td class="centro">0.0</td>
+    </tr> 
+<tr><td>Física</td><td class="centro">0.0</td><td class="centro">0.0</td><td class="centro">0.0</td></tr>
+<tr><td>Química</td><td class="centro">0.0</td><td class="centro">0.0</td><td class="centro">0.0</td></tr>
+<tr><td>Biologia</td><td class="centro">0.0</td><td class="centro">0.0</td><td class="centro">0.0</td></tr>
+<tr><th colspan="4" id="media" scope="row">Média de Exatas</th> <td class="centro" id="media">0.0</td></tr>
+<tr><th rowspan="2">Humanas</th> <td>História</td> <td class="centro">0.0</td><td class="centro">0.0</td><td class="centro">0.0</td></tr>
+<tr><td>Geografia</td> <td class="centro">0.0</td><td class="centro">0.0</td><td class="centro">0.0</td></tr>
+<tr><th colspan="4" id="media" scope="row">Média de Humanas</th><td class="centro" id="media">0.0</td></tr></tbody></table>
+</body>
+</html>

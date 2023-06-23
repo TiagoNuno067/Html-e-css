@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas mais de uma vez</title>
+
+    <style>
+    thead {background-color: gray}
+     th {padding: 10px; border: 1px solid black;} 
+    tbody 
+    {background-color: aquamarine} 
+    td {padding: 10px; border: 1px solid black}
+    
+    .num {text-align: right}
+
+    caption {
+        font-size: 1.5em; 
+        font-weight: bold; 
+        padding: 10px;
+         background-color: lightgray; 
+        border: 1px solid black;}
+    
+    table {border-collapse: collapse};</style>
+</head>
+<body>
+    <h1>Minha tabela nova</h1>
+    <table>
+        <caption>população da unidade Federativa do Brasil</caption>
+    <thead><tr><th scope="col">Posição</th> <th scope="col">Unidade Federativa</th> <th scope="col">população</th> <th scope="col">Mudança</th></tr></thead>
+    <tbody><tr><td>27</td> <td>Roraima</td> <td class="num">450 479</td> <td class="num">+40.9%</td></tr>
+    <tr><td>26</td><td>Amapá</td> <td class="num"> 669 526</td> <td class="num">+15.6%</td></tr>
+    <tr><td>25</td> <td>Acre</td> <td class="num"> 733 559</td> <td class="num"> +13.1%</td></tr>
+    <tr><td>24</td> <td>Tocantins</td> <td class="num"> 1 383 445</td> <td class="num"> +14.5%</td></tr></tbody></table>
+</body>
+</html>

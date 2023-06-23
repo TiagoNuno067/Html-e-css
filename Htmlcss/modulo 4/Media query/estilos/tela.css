@@ -1,0 +1,47 @@
+@charset "UTF-8"; 
+
+
+* {margin: 0px;
+padding: 0px;}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;}
+
+
+header {
+    padding: 10px;
+    background-color: aquamarine;
+    color: red
+}
+
+header > h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(51, 2, 2);
+}
+
+ul {
+    padding: 10px;
+    margin-left: 10px;
+    display: flex;
+    list-style-type: none;
+    font-weight: bold;
+    color: black;
+
+}
+
+ul > li {
+    padding: 10px;
+}
+
+main {
+    padding: 10px;
+    max-width: 1000px;
+    margin: auto;}
+h2 {
+    padding: 10px;
+}
+
+article > p {
+    line-height: 30px;}
