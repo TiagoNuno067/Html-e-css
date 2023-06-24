@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/medias.css" media="screen">
+</head>
+<body>
+    <header><h1>Meu Site</h1>
+    <div id="menu" onclick="clicar()"><img src="estilos/menu_FILL0_wght400_GRAD0_opsz48.png" alt="menu" id="burguer"></div>
+    <nav id="nav"><a href="#">Opçao 1</a><a href="#">opçao 2</a>
+    <a href="#">opçao 3</a> <a href="#">opçao 4</a> <a href="#">opçao 5</a></nav></header>
+
+    <main><article><h2>Testando Media queries</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, laborum numquam sapiente dolorum repellat voluptate voluptatum, praesentium mollitia doloribus omnis, libero repudiandae accusantium natus facilis deserunt velit ut tempora animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quo beatae quae suscipit voluptates magni ea culpa cumque deserunt consectetur tempore nostrum iusto, dolores corporis. Officia corrupti exercitationem dignissimos excepturi.
+
+    </p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, laborum numquam sapiente dolorum repellat voluptate voluptatum, praesentium mollitia doloribus omnis, libero repudiandae accusantium natus facilis deserunt velit ut tempora animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quo beatae quae suscipit voluptates magni ea culpa cumque deserunt consectetur tempore nostrum iusto, dolores corporis. Officia corrupti exercitationem dignissimos excepturi.
+
+    </p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, laborum numquam sapiente dolorum repellat voluptate voluptatum, praesentium mollitia doloribus omnis, libero repudiandae accusantium natus facilis deserunt velit ut tempora animi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed quo beatae quae suscipit voluptates magni ea culpa cumque deserunt consectetur tempore nostrum iusto, dolores corporis. Officia corrupti exercitationem dignissimos excepturi.
+
+    </p></article></main>
+    <script>
+     var m = document.getElementById("menu")
+    var n = document.getElementById("nav")
+    function clicar() {
+       
+       if (n.style.display == "block") {
+        n.style.display = "none"
+       }
+
+       else {
+        n.style.display = "block"
+       }
+    }</script>
+</body>
+</html>

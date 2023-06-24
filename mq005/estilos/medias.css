@@ -1,0 +1,13 @@
+@charset  "UTF-8";
+
+@media screen and (min-width: 992px) {
+    div#menu {display: none;}
+    nav {display: block;
+         width: 500px;
+        padding: 10px;
+        background-color: gray;}
+
+    nav > a {display: inline-block;  border-radius: 10px; }
+
+    main {width: 762px;}
+}
