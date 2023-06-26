@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha conta</title>
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+</head>
+<body>
+    <h1>Cadastre-se</h1>
+    <form action="cadastre.js" method="post" autocomplete="on">
+        <div><label for="inome">Nome</label><input type="text" name="nome" id="inome" required autocomplete="username"></div>
+        <div><label for="isenha">Senha</label><input type="password" name="senha" id="isenha" minlength="8"></div>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

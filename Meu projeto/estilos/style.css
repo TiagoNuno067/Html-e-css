@@ -1,0 +1,7 @@
+@charset  "UTF-8";
+
+div > label {display: block; padding-bottom: 10px;}
+
+div {padding: 10px;}
+
+body {font-family: Arial, Helvetica, sans-serif;}
