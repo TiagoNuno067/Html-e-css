@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recriando o desafio</title>
+</head>
+<body>
+    <h1>Cadastre o pais</h1>
+    <input type="text" placeholder="Digite o pais" id="pais">
+    <button id="butao">Mandar</button>
+    <div id="res"></div>
+    <script>
+    
+    var butao = document.getElementById('butao')
+    butao.addEventListener('click', clicar)
+
+    var res = document.getElementById('res')
+    function clicar() 
+
+        {var txt = document.getElementById('pais')
+        var p = String(txt.value)
+
+        if (p == 'Brasil') 
+            {res.innerHTML = 'Brasil que bom!'}
+
+        else 
+            {res.innerHTML = `${p}? que merda de pais`}}
+    </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perguntando o Pais</title>
+    <style> * {font-family: Arial, Helvetica, sans-serif; margin: 0;padding: 0;}
+    @font-face {
+        font-family: fac;
+        src: url(BebasNeue-Regular.ttf)format(truetype);
+    }
+    input#pais {padding: 5px; margin-left: 20px; margin-top: 10px; border-radius: 4px;}
+    #butao {padding: 2px;}
+    h1 {padding: 10px; 
+        color: rgb(236, 40, 40); 
+        text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.411);
+    margin-left: 10px;
+    font-family: fac; font-size: 3em;}
+    #res {margin-left: 10px; margin-top: 10px;}
+    </style>
+</head>
+<body>
+    <h1>Cadastrando o Pais</h1>
+   <input type="text" placeholder="Coloque o pais" id="pais">
+    <button id="butao">Enviar</button>
+    <div id="res">pais...</div>
+
+    <script>var t = document.getElementById('pais')
+
+    var b = document.getElementById('butao')
+    var res = document.getElementById('res')
+    b.addEventListener('click', clicar)
+
+    function clicar() { 
+        var p = String(t.value).toUpperCase()
+
+       if (p ==  'BRASIL') 
+            {res.innerHTML = `Voçe vive no ${p} é Brasileiro!`}
+        else 
+            {res.innerHTML = `Voce vive no ${p} voçe é estrangeiro! `}}
+
+    </script>
+</body>
+</html>

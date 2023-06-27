@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixa interativa</title>
+    <style>div {
+        font:bold 20pt arial; 
+        background-color: aqua;
+        width: 200px; 
+        height: 200px; 
+        line-height: 200px; 
+        text-align: center; 
+        text-transform: uppercase;
+         margin: auto;
+         border-radius: 10px; border: 1px solid black;}</style>
+</head>
+<body>
+    <div id="area">Interaja</div>
+    <script>
+    
+    var d = document.getElementById('area')
+
+
+    d.addEventListener('mousemove', mover)
+    d.addEventListener('mouseout', sair)
+    d.addEventListener('click', clicar)
+    d.addEventListener('mouseenter', enter)
+
+
+    function mover() {d.innerHTML = 'Ola, Mundo!'}
+    function sair() {d.innerHTML = 'Interaja'}
+    function clicar(){d.style.background = 'red'}
+    function enter() {d.style.background = 'aqua'}</script>
+</body>
+</html>

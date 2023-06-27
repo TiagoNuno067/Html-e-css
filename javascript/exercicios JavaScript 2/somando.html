@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Somando Valores</h1>
+    <input type="number" name="txtn1" id="txtn1">
+    <input type="number" name="txtn2" id="txtn2">
+    <input type="button" value="SOMAR" id="s">
+    <h2 id="res">Resultado...</h2>
+    <script>
+
+    var n = document.getElementById('s')
+    n.addEventListener('click', clicar)
+
+    function clicar() {var txn1 = document.getElementById('txtn1')
+    var txn2 = document.getElementById('txtn2')
+    var n1 = Number(txn1.value)
+    var n2 = Number(txn2.value)
+    var soma = n1 + n2
+    var res = document.getElementById('res')
+    res.innerHTML = `A soma desses valores é igual ${soma}`}
+    
+    </script>
+</body>
+</html>

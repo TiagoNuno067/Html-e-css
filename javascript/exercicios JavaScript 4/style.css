@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+
+body {background-color: rgb(95, 95, 255); font-family: Arial, Helvetica, sans-serif; text-align: center;}
+
+header {color: white}
+
+section {
+    background-color: beige; 
+    width: 600px; 
+    padding: 20px; 
+    border-radius: 10px; 
+    margin: auto;
+    box-shadow: 1px 0px 10px rgba(0, 0, 0, 0.521);}
+
+footer{color: white;}
+
+h1 {text-shadow: 1px 0px 10px rgba(0, 0, 0, 0.521);}
+
+#form > p  {text-align: left;}
+
+#dado {max-width: 100%; text-align: left;}
+
+#foto {width: 200px; height:200px; border-radius: 50%; display: block; margin: auto; margin-top: 10px; }

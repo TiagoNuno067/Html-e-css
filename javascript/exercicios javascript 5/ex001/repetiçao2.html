@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p><input type="number" name="inicio" id="ini"></p>
+    <p><input type="number" name="fim" id="ifim"></p>
+    <p><input type="number" name="passo" id="ipasso"></p>
+    <input type="button" value="Contar" onclick="Contar()">
+
+    <div id="contador"></div>
+    <script>
+        var ini = document.getElementById("ini")
+        var fim = document.getElementById("ifim")
+        var passo = document.getElementById("ipasso")
+        var cont = document.getElementById("contador")
+
+
+        function Contar() {
+            var i = Number(ini.value)
+            var f = Number(fim.value)
+            var p = Number(passo.value)
+           for (c = i; c<=f; c = c + p) {
+                cont.innerHTML += ` ${c} `
+
+           }
+        }
+    </script>
+</body>
+</html>
