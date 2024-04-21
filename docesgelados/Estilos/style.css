@@ -1,0 +1,114 @@
+@charset "UTF-8"; 
+
+/* Mobile First */ 
+@font-face {
+    font-family: fa;
+    src: url(../fontes/CampanaScript_PERSONAL_USE_ONLY.otf);
+}
+/* definindo o background do body */ 
+
+body {
+    background-color: #e1c0ff;
+}
+
+/* zerando o padding e a margin do site */
+
+* {
+    padding: 0px;
+    margin: 0;
+}
+
+/* definindo o cabeçalho do site */
+
+header {
+    background-color: black;
+    padding-bottom: 20%;
+    background-image: linear-gradient(to right, #775EE0, #E05ECE);
+    margin-bottom: 30px;
+}
+
+div#partedecima {
+    padding-top: 9px;
+    height: 66px;
+    background-color:#ca5ee0;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.192);
+}
+
+.icon {
+    height: 47px; 
+    display: block;
+    width: 47px; 
+    margin: auto;
+    border-radius: 50%;}
+
+#partedebaixo {
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    
+}
+
+#Tituloprincipal { 
+    color: #f1dfff;
+    font-family: fa;
+    font-size: 82px;
+    }
+#partedebaixo p {
+    color: #e1c0ff;
+    font-family: fa;
+    font-size: 33px
+}
+/* definindo o resto do site */ 
+
+.container {
+    width: 342px;
+    margin: auto;
+    background-image: url(../imagens/palha-italiana.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 322px;
+    width: 355px;
+    color: #f5ebfd;
+    font-family: fa;
+    font-size: 53px;
+    margin-bottom: 20px;
+}
+
+.container p {
+    padding: 10px;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.692);}
+
+section {
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+    padding: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background-color: #E05ECE;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 10px rgba(20, 20, 20, 0.212);}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.container2 {
+    width: 200px;
+    font-family: fa;
+    font-size: 30px;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.container2 img {
+    width: 59px;
+    border-radius: 50%;}
