@@ -1,5 +1,76 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 992px) {
+
+    .icon{display: none;}
+
+    .icon2{ height: 47px; 
+        display: block;
+        width: 47px; 
+        margin: auto;
+        border-radius: 50%;
+        margin-top: 10px;}
+
+    #Tituloprincipal{ color: #f1dfff;
+        font-family: fa;
+        font-size: 102px;
+        display: none;}
     
-}
+        div#partedecima {
+            padding-top: 9px;
+            height: 86px;
+            background-color:#ca5ee0;
+            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.192);
+        }
+
+    #Tituloprincipal2 {
+        color: #f1dfff;
+        font-family: fa;
+        font-size: 82px;
+        text-align: center;
+        display: block;
+    }
+
+        #partedebaixo {
+            width: 500px;
+            margin: auto;
+            text-align: center;
+            
+        }
+        #partedebaixo p {
+            color: #e1c0ff;
+            font-family: fa;
+            font-size: 33px;
+            margin-top: 10px;
+        }
+        .container {
+            width: 342px;
+            margin: auto;
+            background-image: url(../imagens/palha-italiana.jpg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 755px;
+            color: #f5ebfd;
+            font-family: fa;
+            font-size: 53px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+    
+        }
+        button {
+            cursor: pointer;
+            padding: 13px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            text-transform: uppercase;
+            background-color: #E05ECE;
+            color: white;
+            border-radius: 10px;
+            border: none;
+            transition: 0.9s;}
+
+        button:hover{
+            transition: 0.9s;
+            box-shadow: 1px 1px 10px rgba(20, 20, 20, 0.76);
+        }}

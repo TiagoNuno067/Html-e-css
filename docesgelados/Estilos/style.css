@@ -112,3 +112,20 @@ a {
 .container2 img {
     width: 59px;
     border-radius: 50%;}
+
+    .icon2{ height: 47px; 
+        display: block;
+        width: 47px; 
+        margin: auto;
+        border-radius: 50%;
+        margin-top: 10px;
+        display: none;}
+    
+    
+        #Tituloprincipal2 {
+            color: #f1dfff;
+            font-family: fa;
+            font-size: 82px;
+            text-align: center;
+            display: none;
+        }
